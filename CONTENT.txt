@@ -1,0 +1,341 @@
+﻿Website Content Master Document: [Your Center Name]
+Target Audience: Dentists, Orthodontists, Prosthodontists, and Oral Surgeons.
+Tone: Professional, clinical, technologically advanced, reliable, and collaborative.
+0. GLOBAL SITE ELEMENTS (NAVBAR & FOOTER)
+These elements will be present across all pages of the website to ensure consistent navigation, branding, and access to support.
+0.1: Global Header (Navbar)
+* Left Alignment: [Center Logo]
+* Center Navigation Links:
+   * Home
+   * About Us
+   * Services (Dropdown Menu)
+      * Imaging Center
+      * Implant Planning & Guides
+      * Clear Aligner Staging
+      * Digital Smile Design (DSD)
+      * CAD Prosthetics
+      * Production & Fabrication
+   * Portfolio
+   * Pricing
+   * Contact
+* Right Alignment (CTAs):
+   * Client Login (Secondary Text Link or outlined button)
+   * Submit a Case (Primary highlighted button, links to /portal/start)
+0.2: Global Footer
+* Top Section:
+   * Column 1 (Brand & About):
+      * [Center Logo - Grayscale or White]
+      * Tagline: "Your True End-to-End Digital Lab & Imaging Partner."
+      * Social Icons: LinkedIn, Instagram, Facebook.
+   * Column 2 (Quick Links):
+      * Home | About Us | Portfolio | Pricing | Contact Us | Client Portal Login
+   * Column 3 (Our Services):
+      * Imaging Center | Implant Planning | Clear Aligners | Digital Smile Design | Prosthetics | Production & Fabrication
+   * Column 4 (Contact Information):
+      * Address: [Insert Physical Address]
+      * Phone: +1 (800) 123-4567
+      * Email: support@[yourcentername].com
+      * Hours: Mon - Fri, 8:00 AM - 6:00 PM (EST)
+* Bottom Bar (Legal & Copyright):
+   * © 2026 [Your Center Name]. All Rights Reserved.
+   * Privacy Policy | Terms of Service | HIPAA Compliance Statement
+1. PAGE: HOME (/home)
+Meta Title: Digital Dental Planning, Imaging & Fabrication Center | Advanced CAD/CAM
+Meta Description: Elevate your dental practice with our end-to-end digital dental services. We specialize in imaging, expert digital planning, and in-house 3D printing and milling.
+Section 1.1: Hero Section
+* Headline (H1): Precision Planning. Flawless Production.
+* Sub-headline (H2): Empowering modern dental practices with state-of-the-art imaging, expert CAD/CAM design, comprehensive treatment planning, and premium in-house fabrication.
+* Primary CTA Button: Submit a Case
+* Secondary CTA Button: Explore Our Services
+* Background Visual Suggestion: High-quality video loop showing a transition from a 3D digital CAD model to a 5-axis milling machine shaping a physical crown.
+Section 1.2: Value Proposition / Why Choose Us
+* Headline (H2): Your True End-to-End Digital Lab Partner
+* Body Copy: Transitioning to a fully digital workflow shouldn't slow you down or require massive equipment investments. We act as an extension of your clinic, providing everything from high-fidelity patient data capture to expert digital design and final physical fabrication.
+* Features (Icon + Text):
+   * Icon: Camera/Scan | Comprehensive Imaging: On-site state-of-the-art CBCT, facial scanning, and intraoral capture.
+   * Icon: Monitor | Clinical Precision: Planned by experienced dental technicians and reviewed by clinical experts.
+   * Icon: 3D Printer/Mill | In-House Production: Industrial-grade 3D printing and 5-axis milling for final delivery.
+   * Icon: Stopwatch | Rapid Turnaround: Digital designs within 24-48 hours; physical products shipped fast and reliably.
+Section 1.3: Core Services Overview
+* Headline (H2): Comprehensive Digital Dentistry Solutions
+* Service 1: Imaging Center Services
+   * Short text: Professional digital inputs including CBCT, 3D face scans, and clinical photography.
+   * Link: [Learn More]
+* Service 2: Implant Planning & Surgical Guides
+   * Short text: Driven by CBCT and intraoral scan merging for safe, flawless implant placement.
+   * Link: [Learn More]
+* Service 3: Clear Aligner Setups
+   * Short text: Staging and digital setups for predictable orthodontic movements.
+   * Link: [Learn More]
+* Service 4: Digital Smile Design (DSD)
+   * Short text: Visualizing perfection before treatment begins.
+   * Link: [Learn More]
+* Service 5: Advanced Prosthetics (Crown & Bridge, All-on-X)
+   * Short text: High-aesthetic, functional CAD designs ready for milling or printing.
+   * Link: [Learn More]
+* Service 6: Production & Fabrication
+   * Short text: Physical manufacturing of guides, aligners, and final restorations using premium materials.
+   * Link: [Learn More]
+Section 1.4: How It Works (The Workflow)
+* Headline (H2): A Streamlined, End-to-End Workflow
+* Step 1: Capture. Send your patient to our Imaging Center for precise digital data collection, or securely upload your own scans via our portal.
+* Step 2: Plan. Our expert technicians engineer the digital setup based on your exact clinical prescriptions.
+* Step 3: Review. Review the 3D proposal viewer online. Request unlimited modifications until you approve.
+* Step 4: Manufacture. Download the print-ready/mill-ready files (STL) immediately, OR authorize our fabrication center to 3D print/mill the final physical product and ship it directly to your clinic.
+Section 1.5: Final CTA / Footer
+* Headline (H2): Ready to digitize your practice?
+* Body Text: Join hundreds of dentists who trust [Your Center Name] for their imaging, planning, and fabrication needs.
+* CTA Button: Create Your Free Account
+2. PAGE: ABOUT US (/about)
+Meta Title: About Us | [Your Center Name] Digital Dental Experts
+Meta Description: Learn about our mission to revolutionize the dental industry through advanced CAD/CAM technology, clinical imaging, expert planning, and premium fabrication.
+Section 2.1: Introduction
+* Headline (H1): The Future of Dentistry: Captured, Planned, and Produced Today.
+* Body Copy: At [Your Center Name], we bridge the gap between clinical expertise and cutting-edge digital technology. Founded by a team of forward-thinking dental professionals and elite CAD/CAM technicians, our mission is to provide an uninterrupted, end-to-end digital workflow—making advanced dentistry accessible, efficient, and highly predictable for clinics worldwide.
+Section 2.2: Our Mission & Vision
+* Our Mission: To eliminate the guesswork and friction in dental treatments by providing the highest quality diagnostic imaging, meticulously crafted digital plans, and precision-manufactured physical restorations—all under one roof.
+* Our Vision: To be the global standard of excellence in comprehensive digital dentistry, continuously adopting the latest imaging hardware, AI software advancements, and industrial manufacturing tech to support the dental community.
+Section 2.3: Technology & Software
+* Headline (H2): Powered by Industry-Leading Technology
+* Body Copy: We don't compromise on quality. From our advanced radiography suites to our design department and production floor, we utilize the most robust, FDA-cleared hardware and software platforms in the industry.
+* Logos to Display: exocad, 3Shape, CoDiagnostiX, [Insert X-Ray Brands], [Insert Printer/Mill Brands e.g., Asiga, Formlabs, Roland, vhf].
+3. PAGE: SERVICES DIRECTORY (/services)
+(Note: This page acts as the main hub routing users to the specific detail pages outlined in Sections 7-12).
+Meta Title: Digital Dental Services | Imaging, Planning, & Fabrication
+Meta Description: Explore our full range of services including advanced imaging, implant guides, clear aligner staging, custom prosthetics, and physical manufacturing.
+Section 3.1: Imaging Center Services
+* Short Copy: High-fidelity data is the foundation of digital dentistry. Send your patients to our state-of-the-art center for CBCT, Cephalometric x-rays, 3D face scans, intraoral scans, and professional clinical photoshoots.
+* Link: [View Imaging Services] -> Links to /services/imaging-center
+Section 3.2: Implant Planning & Surgical Guides
+* Short Copy: Transition from freehand to fully guided implant surgery. We merge patient CBCT data with intraoral scans to evaluate bone density and plan optimal implant positioning.
+* Link: [View Implant Planning Services] -> Links to /services/implant-planning
+Section 3.3: Clear Aligner Planning
+* Short Copy: Take control of your clear aligner cases. Submit your scans and prescription, and our orthodontic technicians will create a step-by-step digital movement plan.
+* Link: [View Aligner Planning Services] -> Links to /services/clear-aligners
+Section 3.4: Digital Smile Design (DSD)
+* Short Copy: Show your patients their future smile before touching a single tooth. Using clinical photos and scans, we design proportional, aesthetic restorations.
+* Link: [View DSD Services] -> Links to /services/digital-smile-design
+Section 3.5: Crown, Bridge & Prosthetics Design
+* Short Copy: From simple single-unit crowns to complex All-on-X hybrid frameworks, our CAD team delivers superior morphology and perfect occlusion.
+* Link: [View Prosthetics Services] -> Links to /services/prosthetics
+Section 3.6: Production & Fabrication Center
+* Short Copy: Bring digital designs into physical reality. We offer industrial-grade 3D printing and 5-axis milling for final restorations, guides, and models, shipped directly to your door.
+* Link: [View Fabrication Services] -> Links to /services/production
+4. PAGE: CASE STUDIES / PORTFOLIO (/portfolio)
+Meta Title: Clinical Case Studies | Digital Dental Planning Success
+Meta Description: Browse our portfolio of complex dental cases successfully planned, designed, and fabricated using our end-to-end digital workflows.
+Section 4.1: Header
+* Headline (H1): Seeing is Believing: Clinical Success Stories
+* Body Copy: Explore how our precise imaging data, expert digital planning, and flawless in-house manufacturing have transformed clinical outcomes, reduced surgery times, and improved patient aesthetics.
+Section 4.2: Case Grid
+* Case 1: Full Arch Rehabilitation (All-on-4)
+   * Challenge: Severe bone loss, need for immediate loading.
+   * Our Solution: On-site CBCT followed by stackable surgical guide design, and immediate provisional PMMA milled in our fabrication center.
+   * Visuals: CBCT cross-section, 3D guide design, physical milled PMMA, final post-op smile.
+* Case 2: Aesthetic Veneers (8 Units)
+   * Challenge: Asymmetrical gingival margins and discolored anterior teeth.
+   * Our Solution: Professional Clinical Photoshoot fueling a Digital Smile Design. Final Zirconia veneers designed by CAD and milled/glazed in-house.
+   * Visuals: Before photo, digital mockup, final milled restorations on model.
+5. PAGE: PRICING / PLANS (/pricing)
+Meta Title: Pricing & Plans | [Your Center Name]
+Meta Description: Transparent pricing for digital dental imaging, CAD treatment planning, and physical fabrication. No hidden fees.
+Section 5.1: Pay-Per-Service Pricing
+* Headline (H1): Simple, Transparent Pricing.
+* Body Copy: Whether you are sending a patient for imaging, uploading a case for CAD design, or ordering a final manufactured product, our pricing is straightforward.
+* Pricing Table Idea:
+   * Imaging: CBCT (Full Arch): $XX | Pano/Ceph: $XX | Face Scan: $XX
+   * Digital Design Only (STL Export): Implant Guide: $XX | Aligners: $XX | Crown CAD: $XX
+   * Physical Fabrication (Design + Product):
+      * Printed Surgical Guide (with sleeves): $XX
+      * Milled Zirconia Crown (finished & glazed): $XX
+      * Clear Aligner Therapy (Printed & Thermoformed): $XX per step
+Section 5.2: Enterprise / Volume Pricing
+* Headline (H2): High Volume Clinic?
+* Body Copy: We offer discounted rates and dedicated technician teams for DSOs, large dental labs, and multi-doctor clinics sending high volumes of digital or physical cases.
+* CTA Button: Contact Sales
+6. PAGE: CONTACT US (/contact)
+Meta Title: Contact [Your Center Name] | Dental Imaging, Planning & Lab
+Meta Description: Get in touch with our team of imaging specialists, digital dental technicians, and lab fabricators today.
+Section 6.1: Get in Touch
+* Headline (H1): Let’s Capture, Plan, and Produce Your Next Case.
+* Body Copy: Have a question about a complex case, need to refer a patient for advanced imaging, or want to inquire about our milling materials? Our support team is here to help.
+Section 6.2: Contact Details & Form
+* Contact Information:
+   * Email: support@[yourcentername].com
+   * Phone: +1 (800) 123-4567
+   * Address: [Insert Center Physical Address]
+   * Hours of Operation: Monday - Friday, 8:00 AM - 6:00 PM (EST)
+* Contact Form Fields: First & Last Name, Clinic / Lab Name, Email Address, Phone Number, Inquiry Type (Refer Patient for Imaging, CAD Service, Fabrication/Lab Services, General), Message.
+   * Submit Button: Send Message
+7. PAGE: SERVICE DETAIL - IMAGING CENTER (/services/imaging-center)
+Meta Title: Advanced Dental Imaging Center | CBCT, Scans & Photography | [Your Center Name]
+Meta Description: Refer your patients to our state-of-the-art imaging center for professional CT, CBCT, Pano, Ceph, Intra-oral scans, Face Scans, and clinical photoshoots.
+Section 7.1: Service Hero
+* Headline (H1): The Foundation of Digital Precision
+* Body Copy: Exceptional treatment planning requires exceptional data. Our dedicated, on-site Imaging Center provides dental professionals with high-fidelity, distortion-free diagnostic inputs. Send your patients to us, and we will provide the exact digital foundation you need for predictable outcomes.
+* CTA Button: Refer a Patient for Imaging
+Section 7.2: Comprehensive Diagnostic Suite
+* Headline (H2): Advanced Capture Technologies
+* 3D Radiography (CBCT & CT): High-resolution Cone Beam Computed Tomography with adjustable fields of view (FOV). Essential for implant planning, endodontics, and oral surgery mapping.
+* 2D Radiography (Pano & Ceph): Crystal-clear Panoramic x-rays for general diagnostics and Cephalometric imaging specifically calibrated for precise orthodontic tracing and planning.
+* Intra-oral Scanning (IOS): Highly accurate, powder-free optical impressions generating perfectly stitched STL/PLY files. Eliminates the discomfort of traditional PVS impressions.
+* 3D Facial Scanning: Capturing the patient's soft tissue in motion and rest. Crucial for aligning the dental arch to facial midlines in complex full-arch and aesthetic rehabilitations.
+* Clinical Photography & Video: Professional DSLR studio setups capturing exact macro shade references, retracter shots, and dynamic smile videos for Digital Smile Design (DSD).
+Section 7.3: Why Use Our Imaging Center?
+* Seamless Workflow Integration: If we are handling your CAD design or implant planning, capturing the data at our center eliminates transfer times and data compatibility errors.
+* Patient Comfort: A luxurious, stress-free environment operated by highly trained, compassionate radiological technicians.
+* Calibration & Maintenance: Our hardware is meticulously calibrated daily to ensure absolute scale accuracy—critical for surgical guides and prosthetics.
+Section 7.4: What You Receive
+* Instant digital access to patient files via our secure, HIPAA-compliant online portal.
+* Exported DICOM files (for CBCT/CT), high-res JPEGs/PNGs (for photos), and open STL/PLY/OBJ files (for surface and face scans).
+* Dedicated 3D viewing software links, allowing you to manipulate and view patient scans without needing expensive local software.
+8. PAGE: SERVICE DETAIL - IMPLANT PLANNING (/services/implant-planning)
+Meta Title: 3D Implant Planning & Surgical Guide Design | [Your Center Name]
+Meta Description: Ensure safe, predictable implant placements with our comprehensive 3D implant planning and custom surgical guide design services.
+Section 8.1: Service Hero
+* Headline (H1): Precision Implantology Starts Here
+* Body Copy: Move beyond freehand guesswork. Our clinical experts combine your CBCT DICOMs with intraoral surface scans to engineer highly accurate, prosthetically-driven implant plans.
+* CTA Button: Submit an Implant Case
+Section 8.2: Our Planning Protocol
+* Step 1: Data Superimposition: Exact merging of DICOM and STL/PLY files.
+* Step 2: Anatomical Mapping: Tracing the mandibular nerve, sinus cavities, and evaluating localized bone density.
+* Step 3: Prosthetically-Driven Placement: Virtual placement of crowns to dictate exact trajectories.
+* Step 4: Guide Generation: Designing a perfectly fitted surgical guide.
+Section 8.3: Types of Guides We Design
+* Tooth-Supported, Mucosa-Supported, and Bone-Supported / Reduction Guides.
+Section 8.4: What You Receive (Digital vs. Physical)
+* Digital Only: Interactive 3D web viewer link, PDF surgical report, and print-ready STL file of the guide.
+* Physical Product Option: We can 3D print the guide using biocompatible surgical resin, insert the titanium metal sleeves for your specific drill kit, and ship the sterilized-ready guide directly to your clinic.
+9. PAGE: SERVICE DETAIL - CLEAR ALIGNERS (/services/clear-aligners)
+Meta Title: Clear Aligner Digital Setups & Staging | [Your Center Name]
+Meta Description: In-house aligner design made easy. We provide comprehensive orthodontic staging, IPR charts, and printable STL models—or full physical aligner fabrication.
+Section 9.1: Service Hero
+* Headline (H1): Take Control of Your Aligner Cases
+* Body Copy: Stop losing margins to major aligner brands. We provide the step-by-step digital staging. You can choose to print and thermoform in-house, or let our production center handle the physical manufacturing for you.
+* CTA Button: Start Your First Aligner Case
+Section 9.2: The Staging Process
+* Evaluating occlusion, digital staging with incremental movements, and strategic attachment/IPR planning.
+Section 9.3: Why Choose Our Planners?
+* Orthodontic Expertise, White-Labeling capabilities.
+Section 9.4: What You Receive (Digital vs. Physical)
+* Digital Only: Interactive 3D simulation, IPR protocol (PDF), and sequential STL files ready for your own 3D printer.
+* Physical Product Option: We print the sequential models, thermoform the clear aligners, trim/polish them, and ship the complete boxed treatment plan to your clinic.
+10. PAGE: SERVICE DETAIL - DIGITAL SMILE DESIGN (/services/digital-smile-design)
+Meta Title: Digital Smile Design (DSD) & Mockups | [Your Center Name]
+Meta Description: Increase case acceptance with stunning Digital Smile Designs. We create 2D simulations and 3D motivational mockups for aesthetic dentistry.
+Section 10.1: Service Hero
+* Headline (H1): Visualize Perfection. Increase Acceptance.
+* Body Copy: Allow your patients to test-drive their new smiles. Our Digital Smile Design service creates a powerful emotional connection, harmonizing dental aesthetics with facial proportions.
+* CTA Button: Request a Smile Design
+Section 10.2: The DSD Workflow
+* Facial Analysis (via our Imaging Center or your uploads), 2D Simulation, 3D Translation, and Motivational Mockup generation.
+Section 10.3: Clinical Applications
+* Anterior Veneers, Crown lengthening guides, Full mouth rehabilitations.
+Section 10.4: What You Receive (Digital vs. Physical)
+* Digital Only: Before/After 2D images, 3D STL "ideal smile" wax-up, and printable STL of the mockup matrix.
+* Physical Product Option: We can 3D print the motivational mockup model and ship it to you, allowing you to instantly create a clinical try-in matrix upon delivery.
+11. PAGE: SERVICE DETAIL - PROSTHETICS (/services/prosthetics)
+Meta Title: Advanced CAD Prosthetics Design | [Your Center Name]
+Meta Description: High-quality CAD design for dental prosthetics. From single crowns to complex All-on-X hybrid frameworks, ready for your lab to mill or print.
+Section 11.1: Service Hero
+* Headline (H1): Superior Morphology. Perfect Occlusion.
+* Body Copy: Scale your clinic's output without adding overhead. Our dedicated team provides exquisitely detailed restorations optimized for digital download, or physically milled in our advanced production center.
+* CTA Button: Send a CAD Case
+Section 11.2: Our Restorative Capabilities
+* Single & Multi-Unit crowns, Aesthetic Anterior veneers, Complex Implant Prosthetics, Full Arch / All-on-X hybrids.
+Section 11.3: Optimized for Your Ecosystem
+* If you mill in-house, we tailor design parameters to match your hardware. If we manufacture it, we guarantee a flawless fit.
+Section 11.4: What You Receive (Digital vs. Physical)
+* Digital Only: Manufacturer-ready STL or native CAD construction files.
+* Physical Product Option: We mill or print the final restoration (see our Production & Fabrication capabilities) and ship the finished, glazed, and seated product to you.
+12. PAGE: SERVICE DETAIL - PRODUCTION & FABRICATION (/services/production)
+Meta Title: Dental Lab Production & Fabrication | Milling & 3D Printing | [Your Center Name]
+Meta Description: Bring your digital designs into physical reality. Our in-house dental laboratory offers premium 5-axis milling, 3D printing, and post-processing for flawless final products.
+Section 12.1: Service Hero
+* Headline (H1): From Digital Design to Physical Reality.
+* Body Copy: Not ready to invest in expensive milling machines and 3D printers? Let us be your dedicated manufacturing hub. Our state-of-the-art production center utilizes industrial-grade equipment and premium biocompatible materials to fabricate physical products that exceed clinical standards.
+* CTA Button: Order Physical Fabrication
+Section 12.2: Our Manufacturing Capabilities
+* Headline (H2): Industrial-Grade Production
+* 5-Axis Milling: Uncompromising accuracy for hard materials. We utilize top-tier dry and wet milling machines capable of cutting complex geometries with perfect margins.
+   * Applications: Zirconia crowns/bridges, Titanium custom abutments, PMMA temporaries, E.max/Lithium Disilicate restorations.
+* High-Resolution 3D Printing: Rapid, highly detailed resin printing using DLP and SLA technologies calibrated specifically for dental tolerances.
+   * Applications: Surgical implant guides, dental models, thermoforming models for aligners, castable wax patterns, and printed provisional crowns.
+* Post-Processing & Finishing: A restoration isn't finished when it leaves the mill. Our skilled lab technicians handle the delicate post-processing, including sintering, custom staining, glazing, and final polishing to ensure lifelike vitality.
+Section 12.3: Premium Materials
+* Headline (H2): Quality You Can Trust in the Mouth
+* Body Copy: A perfect CAD design means nothing if the material fails. We source only the highest quality, FDA-approved materials from leading global dental manufacturers.
+* Available Materials: * Multi-layered, highly translucent Zirconia.
+   * Biocompatible Class IIa resins for surgical guides and splints.
+   * High-impact PMMA for long-term temporaries.
+   * Medical-grade Titanium (Grade 5) for implant frameworks.
+Section 12.4: Logistics and Shipping
+* Headline (H2): Fast, Reliable Delivery to Your Clinic
+* Turnaround Times: Because design and fabrication happen under one roof, we eliminate third-party delays. Most milled restorations and printed guides are manufactured and shipped within 24 to 72 hours of digital design approval.
+* Shipping Options: We offer local courier services for nearby clinics and secure, tracked overnight shipping globally. Every product is meticulously packed to ensure it arrives at your clinic in pristine condition, ready for the patient.
+13. PAGE: SUBMISSION PORTAL & BOOKING WIZARD (/portal/start)
+Meta Title: Submit a Case & Book Imaging | [Your Center Name] Portal
+Meta Description: Securely submit digital CAD cases, order lab fabrication, or schedule a patient for advanced dental imaging through our step-by-step portal.
+Section 13.1: Gateway (Choose Your Path)
+* Headline (H1): Start a New Case
+* Body Copy: Please select the service you require to begin our guided submission process.
+* Option A Button: Refer Patient for Imaging Center
+* Option B Button: Submit Digital Planning / Lab Case
+Section 13.2: Path A - Imaging Center Booking Wizard
+(Triggered if user selects Option A)
+* Step 1: Referring Clinic Details
+   * Referring Doctor Name [Text]
+   * Clinic Name [Text]
+   * Contact Email [Email]
+   * Clinic Phone [Phone]
+* Step 2: Patient Information
+   * Patient First & Last Name [Text]
+   * Patient Date of Birth [Date Picker]
+   * Patient Contact Number [Phone]
+   * Patient Email (Optional) [Email]
+* Step 3: Service Selection (Multi-select boxes)
+   * [ ] CBCT (Select FOV: 5x5, 8x8, 10x10, Full Cranial)
+   * [ ] Panoramic X-Ray
+   * [ ] Cephalometric X-Ray
+   * [ ] Intraoral Scan (Full Arch / Quadrant)
+   * [ ] 3D Facial Scan
+   * [ ] Clinical Photoshoot (Standard Series / DSD Series)
+* Step 4: Clinical Indications & Notes
+   * Primary Reason for Scan (Dropdown: Implant Planning, Orthodontics, Endodontics, Pathology, TMJ)
+   * Area of Interest / Tooth Numbers [Text Area]
+   * Will patient bring a radiographic guide? (Yes/No)
+   * Additional Clinical Instructions [Text Area]
+* Step 5: Scheduling & Review
+   * Preferred Appointment Date [Calendar UI]
+   * Preferred Time (Morning, Afternoon, Specific Time)
+   * Summary Box displaying all inputted data.
+   * Submit Button: Book Patient Appointment
+Section 13.3: Path B - Digital Planning & Lab Case Wizard
+(Triggered if user selects Option B)
+* Step 1: Case Identification
+   * Submitting Doctor Name [Text]
+   * Patient ID / Reference Name (Anonymized) [Text]
+   * Target Return Date [Date Picker]
+* Step 2: Select Service Required (Radio Buttons)
+   * ( ) Implant Planning & Surgical Guide
+   * ( ) Clear Aligner Digital Staging
+   * ( ) Digital Smile Design (DSD)
+   * ( ) Prosthetics (Crown, Bridge, Veneers, All-on-X)
+* Step 3: Clinical Prescription & Details (Fields adapt based on Step 2)
+   * Tooth Number(s) Involved [Interactive Dental Chart UI]
+   * Implant Brand / System (if applicable) [Dropdown]
+   * Material Selection (if applicable: Zirconia, PMMA, E.max, Titanium) [Dropdown]
+   * Shade Selection (VITA Classical/3D Master) [Dropdown]
+   * Detailed Clinical Instructions [Text Area]
+* Step 4: File Uploads
+   * Drag & Drop Interface with HIPAA compliance notice.
+   * Upload CBCT / DICOM (.zip)
+   * Upload Intraoral Scans (.stl, .ply)
+   * Upload Patient Photos / Face Scans (.jpg, .obj)
+* Step 5: Output & Production Preference
+   * ( ) Digital Design Only: I will manufacture this in my own clinic/lab. Send me the final STL files.
+   * ( ) Full Physical Fabrication: Please manufacture this in your lab and ship the final physical product to my clinic.
+* Step 6: Review & Final Submission
+   * Summary Box displaying all inputted data, attached file names, and chosen production output.
+   * Agree to Terms & Conditions [Checkbox]
+   * Submit Button: Submit Case to Lab
