@@ -14,9 +14,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-4">
           {/* Column 1: Brand & About */}
           <div className="lg:col-span-1 space-y-6">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 rounded bg-primary flex items-center justify-center text-primary-foreground font-bold">DP</div>
-              <span className="text-xl font-bold tracking-tight uppercase">Denta<span className="text-primary">Plan</span></span>
+            <Link href="/" className="flex flex-col items-start space-y-1">
+              <img 
+                src="/images/ecodent.png" 
+                alt="EcoDent Logo" 
+                className="h-8 md:h-10 w-auto object-contain"
+              />
+              <span className="text-[10px] font-bold uppercase tracking-[0.35em] text-primary/80 leading-none">
+                Digital Planning Center
+              </span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Leading the digital transformation in dentistry through precision planning and state-of-the-art production.
@@ -94,7 +100,7 @@ const Footer = () => {
 
         <div className="mt-16 pt-8 border-t border-muted flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-[12px] text-muted-foreground">
-            © {new Date().getFullYear()} DentaPlan Digital Dental Planning Center. All rights reserved.
+            © {new Date().getFullYear()} EcoDent Digital Dental Planning Center. All rights reserved.
           </p>
           <div className="flex space-x-8">
             <Link href="/privacy" className="text-[12px] text-muted-foreground hover:text-primary">Privacy Policy</Link>

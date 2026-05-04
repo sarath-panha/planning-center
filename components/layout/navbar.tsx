@@ -91,18 +91,17 @@ const Navbar = () => {
           isFused ? "h-20" : "h-16"
         )}>
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2 group">
-            <div className={cn(
-              "w-8 h-8 rounded flex items-center justify-center font-bold group-hover:scale-105 transition-all",
-              isFused ? "bg-white text-primary" : "bg-primary text-primary-foreground"
-            )}>
-              DP
-            </div>
+          <Link href="/" className="flex flex-col items-start group">
+            <img 
+              src="/images/ecodent.png" 
+              alt="EcoDent Logo" 
+              className="h-7 md:h-8 w-auto object-contain transition-all duration-300 group-hover:scale-105"
+            />
             <span className={cn(
-              "text-xl font-bold tracking-tight transition-colors",
-              isFused ? "text-white" : "text-foreground"
+              "text-[9px] font-bold uppercase tracking-[0.35em] mt-1 transition-colors leading-none",
+              isFused ? "text-white/80" : "text-primary/80"
             )}>
-              DENTA<span className={isFused ? "text-white/80" : "text-primary"}>PLAN</span>
+              Digital Planning Center
             </span>
           </Link>
 
