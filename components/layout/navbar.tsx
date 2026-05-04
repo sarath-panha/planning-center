@@ -75,7 +75,7 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const isFusedPage = pathname === '/' || pathname === '/services/imaging-center';
+  const isFusedPage = pathname === '/' || pathname.startsWith('/services/') || pathname === '/about' || pathname === '/portfolio' || pathname === '/pricing';
   const isFused = isFusedPage && !isScrolled;
 
   return (
