@@ -1,64 +1,13 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import MaxWidthWrapper from '@/components/max-width-wrapper';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
 import { CheckCircle2, Search } from 'lucide-react';
-
-const cases = [
-  {
-    title: "Full-Arch Guided Surgery",
-    category: "Implants",
-    image: "/images/implant-guide.png",
-    challenge: "Terminal dentition with severe bone resorption.",
-    solution: "Bone-supported surgical guide with immediate provisional loading.",
-    outcome: "Perfect primary stability and placement."
-  },
-  {
-    title: "Anterior Aesthetic Rehab",
-    category: "Aesthetics",
-    image: "/images/dsd-simulation.png",
-    challenge: "Multiple diastemas and peg laterals.",
-    solution: "DSD protocol followed by ultra-thin Zirconia veneers.",
-    outcome: "100% aesthetic match and patient satisfaction."
-  },
-  {
-    title: "Orthodontic Setup Stage 15",
-    category: "Aligners",
-    image: "/images/aligner-setup.png",
-    challenge: "Severe crowding and rotation on lower arch.",
-    solution: "Stage-by-stage movement design with IPR protocol.",
-    outcome: "Predictable movement and clinical track."
-  },
-  {
-    title: "Precision Zirconia Bridge",
-    category: "Prosthetics",
-    image: "/images/cam-product.png",
-    challenge: "High aesthetic demand with limited vertical space.",
-    solution: "Multi-layered zirconia design with custom characterization.",
-    outcome: "Flawless margin fit and natural morphology."
-  },
-  {
-    title: "Integrated Facial Map",
-    category: "Imaging",
-    image: "/images/imaging-face.png",
-    challenge: "Complex aesthetic planning for gummy smile.",
-    solution: "Merged CBCT and 3D Facial Scan for facially-driven planning.",
-    outcome: "Precise bone-to-soft tissue visualization."
-  },
-  {
-    title: "Single Unit Molar CAD",
-    category: "Prosthetics",
-    image: "/images/cad-crown.png",
-    challenge: "Deep subgingival margins on second molar.",
-    solution: "Digital margin detection and custom emergence profile.",
-    outcome: "Excellent gingival health post-cementation."
-  }
-];
-
-const categories = ["All", "Implants", "Aesthetics", "Aligners", "Prosthetics", "Imaging"];
+import { cases, categories } from '@/lib/data/portfolio';
 
 const PortfolioGallery = () => {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -91,8 +40,8 @@ const PortfolioGallery = () => {
         {/* Gallery Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredCases.map((item, i) => (
-            <div key={i} className="group relative">
-              <Card className="rounded-[2.5rem] border-none shadow-premium hover:shadow-2xl transition-all duration-500 overflow-hidden bg-slate-50 flex flex-col h-full">
+            <Link key={i} href={`/portfolio/${item.slug}`} className="group relative block">
+              <Card className="rounded-[2.5rem] border-none shadow-premium hover:shadow-2xl transition-all duration-500 overflow-hidden bg-slate-50 flex flex-col h-full p-0">
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <img 
                     src={item.image} 
@@ -127,7 +76,7 @@ const PortfolioGallery = () => {
                   </div>
                 </CardContent>
               </Card>
-            </div>
+            </Link>
           ))}
         </div>
 
