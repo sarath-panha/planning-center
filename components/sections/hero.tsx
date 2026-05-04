@@ -4,8 +4,8 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import MaxWidthWrapper from '@/components/max-width-wrapper';
 import { Button } from '@/components/ui/button';
-import { 
-  ArrowRight, 
+import {
+  ArrowRight,
   Camera,
   Monitor,
   Box
@@ -50,19 +50,19 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-foreground">
+    <section className="relative h-screen flex items-center overflow-hidden bg-foreground">
       {/* Dynamic Background Images */}
       {slides.map((slide, index) => (
-        <div 
+        <div
           key={slide.id}
           className={cn(
             "absolute inset-0 z-0 transition-all duration-1000 ease-in-out",
             index === currentSlide ? "opacity-60 scale-100" : "opacity-0 scale-105"
           )}
         >
-          <img 
-            src={slide.image} 
-            alt={slide.title} 
+          <img
+            src={slide.image}
+            alt={slide.title}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/50 to-transparent" />
@@ -79,11 +79,11 @@ const Hero = () => {
                     {slide.icon}
                     <span>{slide.badge}</span>
                   </div>
-                  <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-6xl lg:text-8xl leading-[1.1] mb-6">
+                  <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-7xl leading-[1.1] mb-6">
                     {slide.title.split(' ').map((word, i) => (
                       <span key={i} className={i >= 2 ? "text-primary" : ""}>
                         {word}{' '}
-                        {i === 1 && <br />}
+                        {i === 1}
                       </span>
                     ))}
                   </h1>
@@ -112,7 +112,7 @@ const Hero = () => {
       {/* Slide Indicator Dots & Progress - Bottom Center */}
       <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex gap-3 z-30">
         {slides.map((_, i) => (
-          <button 
+          <button
             key={i}
             onClick={() => setCurrentSlide(i)}
             className="group relative h-1.5 transition-all duration-500"
