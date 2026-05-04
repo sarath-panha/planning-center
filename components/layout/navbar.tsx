@@ -75,8 +75,8 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const isHome = pathname === '/';
-  const isFused = isHome && !isScrolled;
+  const isFusedPage = pathname === '/' || pathname === '/services/imaging-center';
+  const isFused = isFusedPage && !isScrolled;
 
   return (
     <header className={cn(
