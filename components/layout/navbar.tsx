@@ -48,13 +48,13 @@ const services = [
     icon: <Scan className="h-4 w-4" />,
   },
   {
-    title: 'CAD Prosthetics',
+    title: 'CAD Design',
     href: '/services/prosthetics',
     description: 'Exquisite restorations for every case.',
     icon: <Ruler className="h-4 w-4" />,
   },
   {
-    title: 'Fabrication',
+    title: 'CAM Production',
     href: '/services/production',
     description: 'Premium 3D printing and 5-axis milling.',
     icon: <Box className="h-4 w-4" />,
@@ -81,8 +81,8 @@ const Navbar = () => {
   return (
     <header className={cn(
       "fixed top-0 z-50 w-full transition-all duration-300",
-      isFused 
-        ? "bg-transparent border-none py-4" 
+      isFused
+        ? "bg-transparent border-none py-4"
         : "bg-white/95 backdrop-blur-md border-b shadow-sm py-0"
     )}>
       <MaxWidthWrapper>
@@ -92,9 +92,9 @@ const Navbar = () => {
         )}>
           {/* Logo */}
           <Link href="/" className="flex flex-col items-start group">
-            <img 
-              src="/images/ecodent.png" 
-              alt="EcoDent Logo" 
+            <img
+              src="/images/ecodent.png"
+              alt="EcoDent Logo"
               className="h-7 md:h-8 w-auto object-contain transition-all duration-300 group-hover:scale-105"
             />
             <span className={cn(
@@ -116,14 +116,14 @@ const Navbar = () => {
                   <NavigationMenuItem key={item.href}>
                     <Link href={item.href} legacyBehavior passHref>
                       <NavigationMenuLink className={cn(
-                        navigationMenuTriggerStyle(), 
+                        navigationMenuTriggerStyle(),
                         "bg-transparent transition-all px-4 rounded-full",
-                        isFused 
-                          ? "text-white/90 hover:text-white hover:bg-white/10" 
+                        isFused
+                          ? "text-white/90 hover:text-white hover:bg-white/10"
                           : "text-foreground hover:bg-primary/5 hover:text-primary",
                         pathname === item.href && (
-                          isFused 
-                            ? "bg-white/15 text-white font-bold" 
+                          isFused
+                            ? "bg-white/15 text-white font-bold"
                             : "bg-primary/10 text-primary font-bold"
                         )
                       )}>
@@ -134,7 +134,7 @@ const Navbar = () => {
                 ))}
 
                 <NavigationMenuItem value="services">
-                  <NavigationMenuTrigger 
+                  <NavigationMenuTrigger
                     onClick={(e) => {
                       // Toggle on click, prevent default hover behavior if needed
                       setOpenMenu(openMenu === "services" ? "" : "services");
@@ -143,12 +143,12 @@ const Navbar = () => {
                     onPointerLeave={(e) => e.preventDefault()} // Disable hover close
                     className={cn(
                       "bg-transparent transition-all px-4 rounded-full",
-                      isFused 
-                        ? "text-white/90 hover:text-white hover:bg-white/10 data-[state=open]:bg-white/15" 
+                      isFused
+                        ? "text-white/90 hover:text-white hover:bg-white/10 data-[state=open]:bg-white/15"
                         : "text-foreground hover:bg-primary/5 hover:text-primary data-[state=open]:bg-primary/5",
                       pathname.startsWith('/services') && (
-                        isFused 
-                          ? "bg-white/15 text-white font-bold" 
+                        isFused
+                          ? "bg-white/15 text-white font-bold"
                           : "bg-primary/10 text-primary font-bold"
                       )
                     )}
@@ -201,14 +201,14 @@ const Navbar = () => {
                   <NavigationMenuItem key={item.href}>
                     <Link href={item.href} legacyBehavior passHref>
                       <NavigationMenuLink className={cn(
-                        navigationMenuTriggerStyle(), 
+                        navigationMenuTriggerStyle(),
                         "bg-transparent transition-all px-4 rounded-full",
-                        isFused 
-                          ? "text-white/90 hover:text-white hover:bg-white/10" 
+                        isFused
+                          ? "text-white/90 hover:text-white hover:bg-white/10"
                           : "text-foreground hover:bg-primary/5 hover:text-primary",
                         pathname === item.href && (
-                          isFused 
-                            ? "bg-white/15 text-white font-bold" 
+                          isFused
+                            ? "bg-white/15 text-white font-bold"
                             : "bg-primary/10 text-primary font-bold"
                         )
                       )}>
@@ -223,8 +223,8 @@ const Navbar = () => {
 
           {/* Right CTAs */}
           <div className="hidden md:flex items-center space-x-6">
-            <Link 
-              href="/login" 
+            <Link
+              href="/login"
               className={cn(
                 "text-sm font-semibold transition-colors",
                 isFused ? "text-white hover:text-white/80" : "text-foreground hover:text-primary"
@@ -232,14 +232,14 @@ const Navbar = () => {
             >
               Login
             </Link>
-            <Button 
-              size="sm" 
+            <Button
+              size="sm"
               className={cn(
                 "rounded-full px-6 transition-all duration-300 shadow-lg",
-                isFused 
-                  ? "bg-primary text-white border border-white/20 hover:bg-primary/90 shadow-primary/40" 
+                isFused
+                  ? "bg-primary text-white border border-white/20 hover:bg-primary/90 shadow-primary/40"
                   : "bg-primary text-primary-foreground shadow-primary/20"
-              )} 
+              )}
               asChild
             >
               <Link href="/portal/start">Submit Case</Link>
@@ -248,9 +248,9 @@ const Navbar = () => {
 
           {/* Mobile Menu Toggle */}
           <div className="flex md:hidden items-center space-x-2">
-            <Button 
-              variant="ghost" 
-              size="icon" 
+            <Button
+              variant="ghost"
+              size="icon"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className={cn(isFused ? "text-white hover:bg-white/10" : "text-foreground")}
             >

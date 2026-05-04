@@ -4,21 +4,21 @@ import React from 'react';
 import Link from 'next/link';
 import MaxWidthWrapper from '@/components/max-width-wrapper';
 import SectionHeader from '@/components/ui/section-header';
-import { 
-  Drill, 
-  Camera, 
-  Activity, 
-  Sparkles, 
-  Monitor, 
-  Box, 
-  ChevronRight 
+import {
+  Drill,
+  Camera,
+  Activity,
+  Sparkles,
+  Monitor,
+  Box,
+  ChevronRight
 } from 'lucide-react';
 
 const BentoGrid = () => {
   return (
     <section className="py-24 bg-white">
       <MaxWidthWrapper>
-        <SectionHeader 
+        <SectionHeader
           badge="Full Service Suite"
           title="Comprehensive Digital Solutions"
           description="We bridge the gap between digital data and clinical success with a specialized department for every stage of your workflow."
@@ -111,7 +111,7 @@ const BentoGrid = () => {
             <div className="relative z-20 flex flex-col h-full justify-between">
               <div className="flex items-start justify-between">
                 <div className="space-y-2">
-                  <h3 className="text-xl font-bold text-white transition-colors">CAD Prosthetics</h3>
+                  <h3 className="text-xl font-bold text-white transition-colors">CAD Design</h3>
                   <p className="text-sm text-white/80 max-w-xs transition-colors">Single crowns to complex All-on-X restorative frameworks.</p>
                 </div>
                 <div className="w-10 h-10 rounded-xl bg-white/20 text-white flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors">
@@ -131,7 +131,7 @@ const BentoGrid = () => {
             <div className="relative z-20 flex flex-col h-full justify-between">
               <div className="flex items-start justify-between">
                 <div className="space-y-2">
-                  <h3 className="text-xl font-bold text-white transition-colors">Fabrication Center</h3>
+                  <h3 className="text-xl font-bold text-white transition-colors">CAM Production</h3>
                   <p className="text-sm text-white/80 max-w-xs transition-colors">Industrial 5-axis milling and precision 3D printing facility.</p>
                 </div>
                 <div className="w-10 h-10 rounded-xl bg-white/20 text-white flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors">
