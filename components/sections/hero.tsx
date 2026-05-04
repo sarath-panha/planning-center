@@ -50,7 +50,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative h-screen flex items-center overflow-hidden bg-foreground">
+    <section className="relative pt-48 pb-40 flex items-center overflow-hidden bg-foreground">
       {/* Dynamic Background Images */}
       {slides.map((slide, index) => (
         <div
@@ -70,7 +70,7 @@ const Hero = () => {
       ))}
 
       <MaxWidthWrapper className="relative z-10">
-        <div className="max-w-4xl flex flex-col items-start space-y-8 py-20">
+        <div className="max-w-4xl flex flex-col items-start space-y-8">
           <div className="space-y-6">
             {slides.map((slide, index) => (
               index === currentSlide && (
@@ -80,12 +80,7 @@ const Hero = () => {
                     <span>{slide.badge}</span>
                   </div>
                   <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-7xl leading-[1.1] mb-6">
-                    {slide.title.split(' ').map((word, i) => (
-                      <span key={i} className={i >= 2 ? "text-primary" : ""}>
-                        {word}{' '}
-                        {i === 1}
-                      </span>
-                    ))}
+                    {slide.title}
                   </h1>
                   <p className="text-xl text-white/80 leading-relaxed max-w-2xl">
                     {slide.description}
@@ -109,8 +104,8 @@ const Hero = () => {
         </div>
       </MaxWidthWrapper>
 
-      {/* Slide Indicator Dots & Progress - Bottom Center */}
-      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex gap-3 z-30">
+      {/* Slide Indicator Dots & Progress - Left Aligned */}
+      <div className="absolute bottom-12 left-8 md:left-12 lg:left-24 flex gap-3 z-30">
         {slides.map((_, i) => (
           <button
             key={i}
