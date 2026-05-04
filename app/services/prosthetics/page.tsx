@@ -10,7 +10,6 @@ export default function CADDesignPage() {
       <CADHero />
       <CADServices />
       <CADDeliverables />
-      <CADCTA />
     </div>
   );
 }

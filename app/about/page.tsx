@@ -12,9 +12,6 @@ export default function AboutPage() {
       <AboutMission />
       <AboutTechnology />
       <AboutValues />
-      <div className="py-24">
-        <ImagingCTA />
-      </div>
     </div>
   );
 }

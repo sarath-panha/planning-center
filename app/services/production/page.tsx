@@ -10,7 +10,6 @@ export default function CAMProductionPage() {
       <CAMHero />
       <CAMServices />
       <CAMDeliverables />
-      <CAMCTA />
     </div>
   );
 }

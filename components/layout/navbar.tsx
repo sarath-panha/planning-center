@@ -75,7 +75,7 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const isFusedPage = pathname === '/' || pathname.startsWith('/services/') || pathname === '/about' || pathname === '/portfolio' || pathname === '/pricing';
+  const isFusedPage = pathname === '/' || pathname.startsWith('/services/') || pathname === '/about' || pathname === '/portfolio' || pathname === '/pricing' || pathname === '/contact';
   const isFused = isFusedPage && !isScrolled;
 
   return (

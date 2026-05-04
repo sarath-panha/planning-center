@@ -10,7 +10,6 @@ export default function ImplantPlanningPage() {
       <ImplantHero />
       <ImplantServices />
       <ImplantDeliverables />
-      <ImplantCTA />
     </div>
   );
 }

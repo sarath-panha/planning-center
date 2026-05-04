@@ -8,9 +8,6 @@ export default function PricingPage() {
     <div className="flex flex-col overflow-x-hidden">
       <PricingHero />
       <PricingList />
-      <div className="py-24">
-        <ImagingCTA />
-      </div>
     </div>
   );
 }

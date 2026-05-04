@@ -10,7 +10,6 @@ export default function DigitalSmileDesignPage() {
       <DSDHero />
       <DSDServices />
       <DSDDeliverables />
-      <DSDCTA />
     </div>
   );
 }

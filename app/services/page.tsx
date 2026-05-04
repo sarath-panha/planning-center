@@ -107,28 +107,6 @@ export default function Services() {
         </MaxWidthWrapper>
       </section>
 
-      {/* Quick CTA */}
-      <section>
-        <MaxWidthWrapper>
-          <div className="rounded-2xl border bg-card p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 relative overflow-hidden group">
-            <div className="absolute inset-0 bg-primary/5 -translate-x-full group-hover:translate-x-0 transition-transform duration-700" />
-            <div className="max-w-xl relative z-10">
-              <h2 className="text-2xl font-bold mb-4">Unsure which service you need?</h2>
-              <p className="text-muted-foreground">
-                Our clinical experts can help you determine the best workflow for your patient's specific case.
-              </p>
-            </div>
-            <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto relative z-10">
-              <Button size="lg" className="rounded-full px-8" asChild>
-                <Link href="/contact">Consult an Expert</Link>
-              </Button>
-              <Button size="lg" variant="outline" className="rounded-full px-8" asChild>
-                <Link href="/pricing">View Pricing</Link>
-              </Button>
-            </div>
-          </div>
-        </MaxWidthWrapper>
-      </section>
     </div>
   );
 }

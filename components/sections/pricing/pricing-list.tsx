@@ -118,16 +118,6 @@ const PricingList = () => {
             </tbody>
           </table>
         </div>
-
-        <div className="mt-12 flex flex-col md:flex-row items-center justify-between gap-8 p-10 rounded-[2.5rem] bg-slate-950 text-white shadow-2xl">
-          <div className="space-y-2">
-            <h4 className="text-xl font-bold">Large Case Networking?</h4>
-            <p className="text-slate-400 text-sm">Access volume-based tier discounts for processing more than 20 cases per month.</p>
-          </div>
-          <button className="px-8 py-3 rounded-full bg-primary hover:bg-primary/90 text-white font-bold transition-all shadow-lg shadow-primary/20">
-            Inquire Bulk Rates
-          </button>
-        </div>
       </MaxWidthWrapper>
     </section>
   );

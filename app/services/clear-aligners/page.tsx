@@ -10,7 +10,6 @@ export default function ClearAlignersPage() {
       <AlignerHero />
       <AlignerServices />
       <AlignerDeliverables />
-      <AlignerCTA />
     </div>
   );
 }

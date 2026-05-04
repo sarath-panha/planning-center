@@ -160,10 +160,6 @@ export default async function CaseDetailPage({ params }: PageProps) {
         </MaxWidthWrapper>
       </section>
 
-      {/* CTA Section */}
-      <div className="py-24 bg-slate-50">
-        <ImagingCTA />
-      </div>
     </div>
   );
 }
