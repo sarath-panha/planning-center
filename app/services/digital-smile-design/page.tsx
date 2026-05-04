@@ -1,8 +1,6 @@
-import React from 'react';
 import DSDHero from '@/components/sections/digital-smile-design/dsd-hero';
 import DSDServices from '@/components/sections/digital-smile-design/dsd-services';
 import DSDDeliverables from '@/components/sections/digital-smile-design/dsd-deliverables';
-import DSDCTA from '@/components/sections/digital-smile-design/dsd-cta';
 
 export default function DigitalSmileDesignPage() {
   return (

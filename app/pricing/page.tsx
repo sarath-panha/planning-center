@@ -1,7 +1,5 @@
-import React from 'react';
 import PricingHero from '@/components/sections/pricing/pricing-hero';
 import PricingList from '@/components/sections/pricing/pricing-list';
-import ImagingCTA from '@/components/sections/imaging-center/imaging-cta';
 
 export default function PricingPage() {
   return (

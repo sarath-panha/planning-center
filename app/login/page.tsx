@@ -10,7 +10,7 @@ import { ShieldCheck, Lock, User, ChevronLeft } from 'lucide-react';
 export default function Login() {
   return (
     <div className="min-h-[calc(100vh-64px)] flex flex-col items-center justify-center relative py-20">
-      {/* Decorative Glows */}
+
       <div className="absolute top-1/4 left-1/4 -z-10 w-64 h-64 bg-primary/10 blur-[120px] rounded-full" />
       <div className="absolute bottom-1/4 right-1/4 -z-10 w-96 h-96 bg-primary/5 blur-[120px] rounded-full" />
       

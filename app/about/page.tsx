@@ -3,7 +3,6 @@ import AboutHero from '@/components/sections/about/about-hero';
 import AboutMission from '@/components/sections/about/about-mission';
 import AboutTechnology from '@/components/sections/about/about-technology';
 import AboutValues from '@/components/sections/about/about-values';
-import ImagingCTA from '@/components/sections/imaging-center/imaging-cta';
 
 export default function AboutPage() {
   return (

@@ -90,7 +90,6 @@ const Navbar = () => {
           "flex items-center justify-between transition-all duration-300",
           isFused ? "h-20" : "h-16"
         )}>
-          {/* Logo */}
           <Link href="/" className="flex flex-col items-start group">
             <img
               src="/images/ecodent.png"
@@ -105,7 +104,6 @@ const Navbar = () => {
             </span>
           </Link>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-1">
             <NavigationMenu value={openMenu} onValueChange={setOpenMenu}>
               <NavigationMenuList>

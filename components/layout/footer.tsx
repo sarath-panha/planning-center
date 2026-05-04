@@ -7,12 +7,11 @@ import { Button } from '@/components/ui/button';
 const Footer = () => {
   return (
     <footer className="border-t bg-muted/20 relative overflow-hidden">
-      {/* Decorative Blur Background */}
+
       <div className="absolute top-0 right-0 -z-10 w-64 h-64 bg-primary/5 blur-[120px] rounded-full" />
       
       <MaxWidthWrapper className="py-16 md:py-24">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-4">
-          {/* Column 1: Brand & About */}
           <div className="lg:col-span-1 space-y-6">
             <Link href="/" className="flex flex-col items-start space-y-1">
               <img 
@@ -44,7 +43,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Column 2: Quick Links */}
           <div className="space-y-6">
             <h4 className="text-sm font-bold uppercase tracking-widest text-foreground">Services</h4>
             <ul className="space-y-4">
@@ -65,7 +63,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Column 3: Resources */}
           <div className="space-y-6">
             <h4 className="text-sm font-bold uppercase tracking-widest text-foreground">Company</h4>
             <ul className="space-y-4">
@@ -86,7 +83,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Column 4: CTA */}
           <div className="space-y-6 lg:p-8 rounded-2xl border border-primary/10 bg-primary/5">
             <h4 className="text-sm font-bold uppercase tracking-widest text-foreground">Ready to start?</h4>
             <p className="text-xs text-muted-foreground leading-relaxed">

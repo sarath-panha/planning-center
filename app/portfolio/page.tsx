@@ -1,4 +1,3 @@
-import React from 'react';
 import PortfolioHero from '@/components/sections/portfolio/portfolio-hero';
 import PortfolioGallery from '@/components/sections/portfolio/portfolio-gallery';
 

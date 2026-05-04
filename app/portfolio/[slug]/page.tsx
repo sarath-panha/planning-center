@@ -1,4 +1,3 @@
-import React from 'react';
 import { notFound } from 'next/navigation';
 import MaxWidthWrapper from '@/components/max-width-wrapper';
 import { Button } from '@/components/ui/button';
@@ -9,12 +8,10 @@ import {
   Clock, 
   Cpu, 
   Layers, 
-  ChevronRight,
   ShieldCheck
 } from 'lucide-react';
 import Link from 'next/link';
 import { cases } from '@/lib/data/portfolio';
-import ImagingCTA from '@/components/sections/imaging-center/imaging-cta';
 
 interface PageProps {
   params: Promise<{
